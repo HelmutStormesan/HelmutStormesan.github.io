@@ -9,7 +9,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #090909;
+    background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -26,7 +26,7 @@ body {
     border-bottom: 1px solid #3e525e;
   }
   th {
-    background-color: #ffffff;
+    background-color: #127578;
     color: #fff;
   }
   button {
@@ -38,6 +38,6 @@ body {
     cursor: pointer;
   }
   button:hover {
-    background-color: #b4641b;
+    background-color: #fb0202;
   }
   

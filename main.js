@@ -1,20 +1,15 @@
-window.onload = function() {
-    // Obtener el valor del almacenamiento local si existe
-    var storedText = localStorage.getItem('inputText');
-    if (storedText) {
-      document.getElementById('sectionToChange').innerText = storedText;
-    }
+document.getElementById('addButton').addEventListener('click', function() {
+    // Obtener el valor del campo de entrada de texto
+    var textInputValue = document.getElementById('textInput').value;
+    
+    // Crear un nuevo elemento de párrafo para mostrar el texto ingresado
+    var newParagraph = document.createElement('p');
+    newParagraph.textContent = textInputValue;
   
-    // Función para cambiar la sección con el valor del input
-    function changeSection() {
-      var inputValue = document.getElementById('inputValue').value;
-      document.getElementById('sectionToChange').innerText = inputValue;
+    // Agregar el nuevo párrafo al área de salida
+    document.getElementById('outputArea').appendChild(newParagraph);
   
-      // Guardar el valor en el almacenamiento local
-      localStorage.setItem('inputText', inputValue);
-    }
-  
-    // Agregar un listener al botón
-    document.getElementById('changeButton').addEventListener('click', changeSection);
-  }
+    // Limpiar el campo de entrada de texto
+    document.getElementById('textInput').value = '';
+  });
   
