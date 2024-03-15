@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: hsl(198, 34%, 64%);
     color: #333;
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   h1 {
-    color: #007bff;
+    color: #61b473;
   }
   table {
     width: 100%;
@@ -26,7 +26,7 @@ body {
     border-bottom: 1px solid #ddd;
   }
   th {
-    background-color: #007bff;
+    background-color: #ffffff;
     color: #fff;
   }
   button {
@@ -38,6 +38,6 @@ body {
     cursor: pointer;
   }
   button:hover {
-    background-color: #0056b3;
+    background-color: #b4641b;
   }
   
