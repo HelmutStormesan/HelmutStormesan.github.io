@@ -41,3 +41,20 @@ body {
     background-color: #fb0202;
   }
   
+  .table-custom {
+    background-color: #f8f9fa;
+  }
+  
+  .table-custom th {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .table-custom td {
+    background-color: #e9ecef;
+  }
+  
+  .table-custom th, .table-custom td {
+    border-color: #dee2e6;
+  }
+  
